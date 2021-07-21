@@ -14,36 +14,53 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 500px;
-}
-
-nav {
-    background-color: yellow;
-    height: 50px;
+    border-top: 1px solid transparent;
 }
 
 nav ul {
-    text-decoration: none;
     text-align: right;
-    height: 50px;
+    margin: 17px 40px 0 0 ;
 }
 
 nav li {
-    background-color: rgb(41, 16, 41);
     display: inline-block;
-    margin-right: 30px;
-    line-height: 50px;
+    border: solid 1px #ccc;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+
+nav a:hover{
+    background-color: #1c4e55;
 }
 
 .informação_cabeçalho {
-    text-align: center;
+    text-align: left;
     color: white;
-    margin-top: 150px;
 }
 
 .informação_cabeçalho h1 {
     text-transform: uppercase;
+    font-size: 40px;
     font-weight: 600;
+    margin-top: 150px;
+    margin-left: 200px;
     text-shadow: 3px 3px 5px rgb(119, 119, 119)
+}
+
+.informação_cabeçalho p {
+    font-size: 20px;
+    margin-left: 200px;
+    color: rgb(235, 235, 235);
 }
 
 /*** MAIN
