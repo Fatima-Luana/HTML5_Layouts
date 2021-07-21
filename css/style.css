@@ -1,0 +1,110 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/*** HEADER
+**** Header principal do site
+***/
+header {
+    background-image: url("../img/julien-gaud-OG40m9BYEdw-unsplash.jpg");
+    background-position: right center;
+    background-size: Cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+nav {
+    background-color: yellow;
+    height: 50px;
+}
+
+nav ul {
+    text-decoration: none;
+    text-align: right;
+    height: 50px;
+}
+
+nav li {
+    background-color: rgb(41, 16, 41);
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 50px;
+}
+
+.informação_cabeçalho {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.informação_cabeçalho h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 3px 3px 5px rgb(119, 119, 119)
+}
+
+/*** MAIN
+**** Main do conteúdo principal do site
+***/
+main {
+    width: 70%;
+    margin: auto;
+}
+
+.section_cards {
+    margin-top: 40px;
+    background-color: white;
+    padding: 15px;
+    height: auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    margin-right: 20px;
+    background-color: rgb(233, 243, 243);
+}
+
+.card img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.section_informação {
+    margin-top: 30px;
+    background-color: white;
+    padding: 2px 30px 10px 30px;
+}
+
+.section_informação h2 {
+    background-color: #00aac2;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-bottom: solid 2px #ccc;
+}
+
+.section_informação p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3f3e3e;
+}
+
+/*** FOOTER
+**** Rodapé do site
+***/
+.rodape {
+    background-color: #1c4e55;
+    height: 80px;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+}
