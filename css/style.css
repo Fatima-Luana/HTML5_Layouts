@@ -7,6 +7,7 @@ body {
 /*** HEADER
 **** Header principal do site
 ***/
+
 header {
     background-image: url("../img/julien-gaud-OG40m9BYEdw-unsplash.jpg");
     background-position: right center;
@@ -19,7 +20,7 @@ header {
 
 nav ul {
     text-align: right;
-    margin: 17px 40px 0 0 ;
+    margin: 17px 40px 0 0;
 }
 
 nav li {
@@ -36,16 +37,11 @@ nav a {
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #1c4e55;
-}
-
-.informação_cabeçalho {
-    text-align: left;
-    color: white;
 }
 
 .informação_cabeçalho h1 {
@@ -54,18 +50,24 @@ nav a:hover{
     font-weight: 600;
     margin-top: 150px;
     margin-left: 200px;
-    text-shadow: 3px 3px 5px rgb(119, 119, 119)
+    text-shadow: 3px 3px 5px rgb(119, 119, 119);
+    color: white;
 }
 
 .informação_cabeçalho p {
     font-size: 20px;
     margin-left: 200px;
     color: rgb(235, 235, 235);
+    background-color: rgba(10, 29, 31, 0.3);
+    border-bottom: solid 1px #ccc;
+    display: inline-block;
+    padding: 15px;
 }
 
 /*** MAIN
 **** Main do conteúdo principal do site
 ***/
+
 main {
     width: 70%;
     margin: auto;
@@ -75,22 +77,29 @@ main {
     margin-top: 40px;
     background-color: white;
     padding: 15px;
-    height: auto;
+    overflow: auto;
     text-align: center;
 }
 
 .card {
-    display: inline-block;
-    height: 300px;
-    width: 350px;
-    margin-right: 20px;
+    width: 32%;
+    float: left;
     background-color: rgb(233, 243, 243);
 }
 
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
 .card img {
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+}
+
+.card p {
+    background-color: rgba(10, 29, 31, 0.3);
+    margin: 0;
+    padding: 15px;
+    color: white;
 }
 
 .section_informação {
@@ -100,7 +109,7 @@ main {
 }
 
 .section_informação h2 {
-    background-color: #00aac2;
+    background-color: rgba(10, 29, 31, 0.6);
     padding: 10px;
     text-align: center;
     color: white;
@@ -117,6 +126,7 @@ main {
 /*** FOOTER
 **** Rodapé do site
 ***/
+
 .rodape {
     background-color: #1c4e55;
     height: 80px;
